@@ -1,0 +1,37 @@
+body{
+    background-image: url(../woodbackground.jpg);
+}
+h1{
+    text-align: center;
+    font-size: 5vw;
+}
+.cell{
+    background-color: rgba(203,203,203,0.8);
+    border-radius: 10px;
+    position: center;
+}
+.grid-x {
+    text-align: center;
+}
+a{
+    background-color: rgba(100,100,100,0.81);
+    text-align: center;
+    font-size: 2.25rem;
+    color: white;
+}
+img{
+    float: left;
+    width: auto;
+}
+a:hover{
+    color: lightgrey;
+}
+
+.button{
+    background-color: Black;
+    color: White;
+    font-size: 100%;
+}
+.button:hover{
+    background-color: gray;
+}
