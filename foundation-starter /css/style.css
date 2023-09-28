@@ -3,34 +3,45 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 .cell{
-    background-color: rgba(203,203,203,0.8);
+    margin-top: 0.5vw;
+    margin-bottom: 2vw;
     border-radius: 10px;
-    position: center;
-}
-.grid-x {
     text-align: center;
+    font-size: 2.3vmax;
 }
-a{
-    background-color: rgba(100,100,100,0.81);
-    text-align: center;
-    font-size: 2.25rem;
-    color: white;
+.grid-x{
+    align-content: center;
 }
-img{
-    float: left;
-    width: auto;
+.off-canvas{
+    background-color: rgba(203,203,203,0.8);
 }
-a:hover{
-    color: lightgrey;
+.js-off-canvas-overlay.is-visible {
+    opacity: 0;
 }
 
+img{
+    border-radius: 20px;
+}
+
+
+li{
+    padding-top: 40px;
+}
+a{
+    text-align: center;
+    font-size: 2.25rem;
+    color: #0a0a0a;
+}
+a:hover{
+    color: #3b3b3b;
+}
 .button{
     background-color: Black;
     color: White;
-    font-size: 100%;
+    font-size: 150%;
 }
 .button:hover{
     background-color: gray;

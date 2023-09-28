@@ -11,7 +11,7 @@
 <body>
     <div class="off-canvas-wrapper">
         <!-- Your menu or Off-canvas content goes here -->
-        <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+        <div class="off-canvas position-right small" id="offCanvas" data-off-canvas>
             <!-- Close button -->
             <button class="close-button" aria-label="Close menu" type="button" data-close>
                 <span aria-hidden="true">&times;</span>
@@ -31,21 +31,28 @@
             <div class="grid-container">
                 <!-- `grid-x` represents a row -->
                 <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Navigation Menu</button>
+                    <div class="cell small-0 large-9"></div>
+                    <button type="button" class="cell small-12 large-3 button" data-toggle="offCanvas">Navigation Menu</button>
                 </div>
 
                 <div class="grid-x grid-padding-x" style="font-size: 5vw">
-                    <div class="cell large-auto">All about Ethan Johnson</div>
+                    <div class="cell small-0 large-2"></div>
+                    <div class="cell small-12 large-8" style="background-color: rgba(203,203,203,0.8);
+                        font-size: 8vh; margin-bottom: 0.5vw;">
+                        All about Me!
+                    </div>
+                    <div class="cell small-0 large-2"></div>
                 </div>
 
                 <div class="grid-x grid-padding-x">
                     <div class="cell small-12 large-6" style="background-color: rgba(255,255,255,0)">
                         <img src="./headshot1.jpg" alt="Picture of Ethan" /></div>
-                    <div class="cell small-12 large-6">
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8);
+                        padding-top: 4vw; padding-left: 1vw; padding-right: 1vw; ">
                         Hello! I am Ethan Johnson and I am a student and the University of St Thomas. I am majoring in
                         computer science and business administration with an minor is statistics. Outside of class I work
                         as a tour guide, and in my free time I enjoy hanging out with friends and lifting in the gym.
-                        In the future I would like to work in Information Security, keeping people's information safe.
+                        In the future I would like to work in Information Security.
                     </div>
                 </div>
 
