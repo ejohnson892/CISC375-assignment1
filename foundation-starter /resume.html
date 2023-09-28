@@ -3,14 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation Intro</title>
+    <title>Ethan's Resume</title>
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 <div class="off-canvas-wrapper">
     <!-- Your menu or Off-canvas content goes here -->
-    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+    <div class="off-canvas position-right small" id="offCanvas" data-off-canvas>
         <!-- Close button -->
         <button class="close-button" aria-label="Close menu" type="button" data-close>
             <span aria-hidden="true">&times;</span>
@@ -18,12 +19,10 @@
 
         <!-- Menu -->
         <ul class="vertical menu">
-            <li><a href="#">Foundation</a></li>
-            <li><a href="#">Dot</a></li>
-            <li><a href="#">ZURB</a></li>
-            <li><a href="#">Com</a></li>
-            <li><a href="#">Slash</a></li>
-            <li><a href="#">Sites</a></li>
+            <li><a href="./index.html">Home Page</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./fun.html">Fun</a></li>
         </ul>
     </div>
     <!-- Your page content lives here -->
@@ -32,20 +31,104 @@
         <div class="grid-container">
             <!-- `grid-x` represents a row -->
             <div class="grid-x grid-padding-x">
-                <div class="cell small-6 large-4" style="background-color: #ADD8E6;">Small 6 / Large 4</div>
-                <div class="cell small-6 large-8" style="background-color: #90EE90;">Small 6 / Large 8</div>
+                <div class="cell small-0 large-9"></div>
+                <button type="button" class="cell small-12 large-3 button" data-toggle="offCanvas">Navigation Menu</button>
             </div>
 
+            <div class="grid-x grid-padding-x" style="font-size: 5vw;">
+                <div class="cell small-0 large-2"></div>
+                <div class="cell small-12 large-8" style="background-color: rgba(203,203,203,0.8); font-size: 4vmax;
+                    margin-bottom: 0.5vw; padding: 0vw;">
+                    Resume
+                </div>
+                <div class="cell small-0 large-2"></div>
+            </div>
+            <!-- First Row -->
             <div class="grid-x grid-padding-x">
-                <div class="cell large-auto" style="background-color: #ADD8E6;">One</div>
-                <div class="cell large-auto" style="background-color: #90EE90;">Two</div>
-                <div class="cell large-auto" style="background-color: #ADD8E6;">Three</div>
-                <div class="cell large-auto" style="background-color: #90EE90;">Four</div>
-                <div class="cell large-auto" style="background-color: #ADD8E6;">Five</div>
+                <!-- First Column -->
+                <div class="cell small-12 large-6">
+                    <div class="cell small-12 large-12" style="background-color: rgba(203,203,203,0.8);
+                        font-size: 2.5vmax; padding: 0vw;">
+                        Education
+                    </div>
+                    <div class="cell small-12 large-12" style="background-color: rgba(203,203,203,0.8); margin-bottom: 0vw;">
+                        I attended Alexandria Area High School before coming to
+                        <a href="https://www.stthomas.edu/" target="_blank" style="color:blue; font-size: 1.8vmax;">
+                            St Thomas
+                        </a>
+                        to major in Computer Science and Business Administration.
+                    </div>
+                    <div class="cell small-12 large-12" style="background-color: rgba(255,255,255,0); margin-top: 0.5vw">
+                        <img src="./StThomasCampus.jpg" alt="Picture of the St Thomas campus" />
+                    </div>
+                </div>
+                <!-- Second Column -->
+                <div class="cell small-12 large-6">
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8);
+                        font-size: 2.5vmax; padding: 0vw;">
+                        Work Experience
+                    </div>
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8); margin-bottom: 0.5vw;">
+                        St Thomas Tour Guide
+                    </div>
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8);">
+                        While attending St Thomas I enjoyed my experiences so much that I decided to become a tour
+                        guide. Each day I give tours to prospective students and share my experiences with them.
+                    </div>
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8); margin-bottom: 0.5vw;">
+                        Data Structures Tutor
+                    </div>
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8);">
+                        Last semester I was a tutor for Data Structures. Every Thursday night I would have office
+                        hours when students could come get help with homework and studying. I enjoyed helping others
+                        and reinforcing my own learning through explaining concepts to others.
+                    </div>
+                </div>
             </div>
 
+            <!-- First Row -->
             <div class="grid-x grid-padding-x">
-                <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+                <!-- First Column -->
+                <div class="cell small-12 large-6">
+                    <div class="cell small-12 large-12" style="background-color: rgba(203,203,203,0.8);
+                        font-size: 2.5vmax; padding: 0vw;">
+                        Extra-Curriculars
+                    </div>
+                    <div class="cell small-12 large-12" style="background-color: rgba(203,203,203,0.8); margin-bottom: 0vw;">
+                        <a href="https://www.betagammasigma.org/home" target="_blank" style="color:blue; font-size: 1.8vmax;">
+                            Beta Gamma Sigma Honors Society
+                        </a>
+                    </div>
+                    <div class="cell small-12 large-12" style="background-color: rgba(203,203,203,0.8); margin-bottom: 0vw;">
+                        <a href="https://www.stthomas.edu/aquinasscholars/" target="_blank" style="color:blue; font-size: 1.8vmax;">
+                            St Thomas Aquinas Scholars
+                        </a>
+                    </div>
+                    <div class="cell small-12 large-12" style="background-color: rgba(255,255,255,0); margin-top: 0.5vw">
+                        <img src="./BetaGammaSigma.jpg" alt="Picture of Kaitlyn and Ethan being inducted into Beta Gamma Sigma" />
+                    </div>
+                </div>
+                <!-- Second Column -->
+                <div class="cell small-12 large-6">
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8);
+                        font-size: 2.5vmax; padding: 0vw;">
+                        Work Skills
+                    </div>
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8); margin-bottom: 0.5vw;">
+                        Technical Skills
+                    </div>
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8);">
+                        During my computer science classes I have learned about topics including programming languages,
+                        web development, data structures, and computer architecture.
+                    </div>
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8); margin-bottom: 0.5vw;">
+                        Interpersonal Skills
+                    </div>
+                    <div class="cell small-12 large-6" style="background-color: rgba(203,203,203,0.8);">
+                        While being a tour guide at St Thomas I have learned how to relate to others, hold an
+                        effective conversation, actively listen, and be confident in my actions and words while leading others.
+                    </div>
+                </div>
             </div>
         </div>
     </div>

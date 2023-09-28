@@ -10,7 +10,8 @@ h1{
     margin-bottom: 2vw;
     border-radius: 10px;
     text-align: center;
-    font-size: 2.3vmax;
+    font-size: 1.8vmax;
+    padding: 1vw;
 }
 .grid-x{
     align-content: center;
@@ -35,9 +36,8 @@ a{
     font-size: 2.25rem;
     color: #0a0a0a;
 }
-a:hover{
-    color: #3b3b3b;
-}
+a:hover {color: #3b3b3b;}
+
 .button{
     background-color: Black;
     color: White;
@@ -46,3 +46,4 @@ a:hover{
 .button:hover{
     background-color: gray;
 }
+
